@@ -274,10 +274,7 @@ fieldset[disabled] .btn-xl.active {
 
   }
   section{
-    background-size: cover !important;
-    background-position: 50% 50% !important;
-    background-attachment: fixed !important;
-
+    background-size: 100% 100% !important
   }
   /*#services{
       -webkit-background-size: auto 150% !important;
