@@ -275,7 +275,8 @@ fieldset[disabled] .btn-xl.active {
   }
   #services{
       background-image: url('IsoWorker.jpg');
-
+      -webkit-background-size: auto 150% !important;
+      background-attachment: scroll;
   }
 }
 
