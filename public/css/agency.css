@@ -986,3 +986,22 @@ h3{
  -o-background-size: cover;
  background-size: cover;
 }
+
+#cover{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 9999;
+
+
+}
+
+div#preload {
+
+  display: none;
+
+
+}

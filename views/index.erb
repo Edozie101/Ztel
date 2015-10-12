@@ -23,7 +23,11 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <script type="text/javascript">
+    $(window).on('load',function () {
+      $("#cover").hide();
+    });
+    </script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,6 +36,8 @@
     <![endif]-->
 
 </head>
+<div id="cover">
+
 
 <body id="page-top" class="index">
 
@@ -267,7 +273,12 @@
         </div>
     </footer>
 
+<div id="preload">
+  <img src="http://domain.tld/image-01.png" width="1" height="1" alt="Image 01" />
+  <img src="http://domain.tld/image-02.png" width="1" height="1" alt="Image 02" />
+  <img src="http://domain.tld/image-03.png" width="1" height="1" alt="Image 03" />
 
+</div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -285,7 +296,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
+ </div>
 </body>
 
 </html>
