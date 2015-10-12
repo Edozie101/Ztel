@@ -258,6 +258,16 @@ fieldset[disabled] .btn-xl.active {
     background-color: #4DBD33;
 }
 
+@media only screen and ( orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .video-container{
+    display: none;
+  }
+  #services{
+      background-image: url('Isoworker.jpg');
+
+  }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
