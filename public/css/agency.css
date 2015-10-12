@@ -277,10 +277,10 @@ fieldset[disabled] .btn-xl.active {
   section{
 
   }
-  #services{
+  /*#services{
       -webkit-background-size: auto 150% !important;
       background-attachment: scroll !important;
-  }
+  }*/
 
 }
 
