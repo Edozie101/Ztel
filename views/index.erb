@@ -23,10 +23,17 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
     <script type="text/javascript">
-    $(window).on('load',function () {
-      $("#cover").hide();
+    var $img = $('<img src="' + 'css/IsoTelecomI.jpg' + '">')
+    $img.bind ( 'load', function () {
+      $('#services').css('background-image', 'url(css/IsoTelecomI.jpg)');
     });
+    if  ($img[0].width){ $img.trigger('load');}
+
+
     </script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -277,8 +284,6 @@
   <img src="http://domain.tld/image-03.png" width="1" height="1" alt="Image 03" />
 
 </div>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
