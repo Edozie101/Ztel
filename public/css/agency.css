@@ -274,7 +274,9 @@ fieldset[disabled] .btn-xl.active {
 
   }
   section{
-    background-size: 100%;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    background-attachment: fixed !important;
 
   }
   /*#services{
