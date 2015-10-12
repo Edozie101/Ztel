@@ -278,6 +278,10 @@ fieldset[disabled] .btn-xl.active {
       -webkit-background-size: auto 150% !important;
       background-attachment: scroll;
   }
+  header{
+    height: 100%;
+
+  }
 }
 
 @media(min-width:768px) {
