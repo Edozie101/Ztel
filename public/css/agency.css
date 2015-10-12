@@ -264,7 +264,8 @@ fieldset[disabled] .btn-xl.active {
   }
   h3.main {
   font-family: "CircularPro Bold" !important;
-   font-size: 28px !important;
+   font-size: 27px !important;
+   text-align: center !important;
   }
   p.header{
     font-family: "CircularPro Bold" !important;
@@ -274,12 +275,12 @@ fieldset[disabled] .btn-xl.active {
 
   }
   section{
-    background-size: 100% 100% !important
+
   }
-  /*#services{
+  #services{
       -webkit-background-size: auto 150% !important;
       background-attachment: scroll !important;
-  }*/
+  }
 
 }
 
