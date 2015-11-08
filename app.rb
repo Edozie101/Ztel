@@ -4,7 +4,7 @@ get '/' do
   erb :index
 end
 
-post '/mai', :provides => :json do
+post '/mail', :provides => :json do
   require 'pony'
   name = params["fullName"]
   email = params["email"]

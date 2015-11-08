@@ -29,12 +29,7 @@ $(function() {
             $.ajax({
                 url: form.attr('action'),
                 type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
+                data: fd,
                 cache: false,
                 success: function() {
                     // Success message
