@@ -6,13 +6,14 @@ end
 
 post '/mail' do
   require 'pony'
+  name = params[:name]
+  email = params[:email]
+  phone = params[:phone]
+  subject = name + " has contacted you about ZegTel"
+  body = params[:message]
   Pony.mail = ({
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
-    # name = params[:name]
-    # email = params[:email]
-    # phone = params[:phone]
-    # subject = name + " has contacted you about ZegTel"
-    # body = params[:message]
+
 
     :subject => "Some Subject",
     :body => "This is the body.",
