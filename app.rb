@@ -7,7 +7,7 @@ end
 post '/mail' do
   require 'pony'
   Pony.options = {
-  unless params[:name] == '' || params[:email] == '' || params[:content] == ''
+  # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
     :subject => "Some Subject",
     :body => "This is the body.",
     :to => "edzye101@gmail.com"
@@ -22,6 +22,6 @@ post '/mail' do
       :enable_starttls_auto => true
   }
 }
-  end
+  # end
 redirect '/'
 end
