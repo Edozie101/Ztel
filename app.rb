@@ -11,6 +11,8 @@ post '/mail', :provides => :json do
   phone = params["phone"]
   subject = name + " has contacted you about ZegTel"
   body = params["message"]
+  puts params
+
   Pony.mail = ({
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
 
