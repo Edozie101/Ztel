@@ -21,6 +21,7 @@ $(function() {
             fd.append("email",email);
             fd.append("message",message);
             fd.append("phone", phone);
+            console.log(fd)
              // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -29,7 +30,7 @@ $(function() {
             $.ajax({
                 url: form.attr('action'),
                 type: "POST",
-                data: fd,
+                data: {fullName : name, message : message},
                 cache: false,
                 success: function() {
                     // Success message
