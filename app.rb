@@ -4,18 +4,18 @@ get '/' do
   erb :index
 end
 
-post '/mail', :provides => :json do
+post '/mail' do
   require 'pony'
+
   name = params["fullName"]
   email = params["email"]
   phone = params["phone"]
   subject = name + " has contacted you about ZegTel"
   body = params["message"]
   puts name
-  Pony.mail = ({
+  Pony.mail (
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
-
-
+    :from => name,
     :subject => "Some Subject",
     :body => "This is the body.",
     :to => "edzye101@gmail.com",
@@ -29,5 +29,5 @@ post '/mail', :provides => :json do
       :authentication => :plain,
       :enable_starttls_auto => true
   }
-})
+)
 end
