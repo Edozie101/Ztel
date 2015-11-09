@@ -17,7 +17,7 @@ post '/mail' do
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
     :from => 'edzye101@gmail.com',
     :subject => subject,
-    :body => body + email,
+    :body => body + "\n" + "email : #{email} \n phone: #{phone}",
     :to => "edzye101@gmail.com",
     :via => :smtp,
     :via_options => {
