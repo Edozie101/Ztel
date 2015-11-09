@@ -13,7 +13,7 @@ post '/mail' do
   subject = name + " has contacted you about ZegTel"
   body = params["message"]
   puts name
-  Pony.mail (
+  Pony.mail(
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
     :from => name,
     :subject => "Some Subject",
