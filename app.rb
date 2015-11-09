@@ -13,12 +13,11 @@ post '/mail' do
   subject = name + " has contacted you about ZegTel"
   body = params["message"]
   puts name + " hello world"
-  puts ENV['SENDGRID_USERNAME']
   Pony.mail(
   # unless params[:name] == '' || params[:email] == '' || params[:content] == ''
     :from => 'edzye101@gmail.com',
-    :subject => "Some Subject",
-    :body => "This is the body.",
+    :subject => subject,
+    :body => body + " from " + email + " " + phone,
     :to => "edzye101@gmail.com",
     :via => :smtp,
     :via_options => {
