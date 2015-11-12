@@ -32,3 +32,15 @@ $(function () {
     },
  })
 })
+
+// $(function () {
+//
+//
+// $("#loginform").ajaxForm(
+//   {url: $('#loginform').attr('action'),
+//    type: 'POST',
+//    data: {'user':  $("input#email"),
+//           'password':  $("input#password")},
+//
+//   })
+// })
