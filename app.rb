@@ -21,15 +21,17 @@ post '/login' do
   user =  params[:user]
   password =  params[:password ]
 
-    a = Mechanize.new
+    agent = Mechanize.new do |a|
+      a.proxy_host = "http://google.com"
+      a.proxy_port = 8080
+    end
     # Getting a logger for the mechanize classie
-    a.log = Logger.new("mech.log")
+    agent.log = Logger.new("mech.log")
     #set up the alias as a Mac safari
-    a.user_agent_alias = "Mac Safari"
-    a.proxy_host = "https://gmail.com"
+    agent.user_agent_alias = "Mac Safari"
 
 
-    page = a.get("https://zegtel.atmailcloud.com")
+    page = agent.get("https://zegtel.atmailcloud.com")
     a.add_auth(page.uri, user, password)
 
     form = page.form_with :name => "loginPage"
