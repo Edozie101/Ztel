@@ -1,5 +1,12 @@
 require 'sinatra'
+require 'socket'
+ip = IPSocket.getaddress(Socket.gethostname)
+local_ip = UDPSocket.open {|s| s.connect("64.233.187.99", 1); s.addr.last}
+iphash = system("curl", 'https://api.ipify.org?format=json')
 
+puts ip
+puts local_ip
+puts iphash
 get '/' do
   erb :index
 end
@@ -13,11 +20,14 @@ post '/login' do
   puts "it starts here"
   user =  params[:user]
   password =  params[:password ]
+
     a = Mechanize.new
     # Getting a logger for the mechanize classie
     a.log = Logger.new("mech.log")
     #set up the alias as a Mac safari
-    # a.user_agent_alias = "Mac Safari"
+    a.user_agent_alias = "Mac Safari"
+    a.proxy_host = "https://gmail.com"
+
 
     page = a.get("https://zegtel.atmailcloud.com")
     a.add_auth(page.uri, user, password)
