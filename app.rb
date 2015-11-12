@@ -22,8 +22,8 @@ post '/login' do
   password =  params[:password ]
 
     agent = Mechanize.new do |a|
-      a.proxy_host = "http://google.com"
-      a.proxy_port = 8080
+      a.set_proxy( "http://google.com",8080)
+  
     end
     # Getting a logger for the mechanize classie
     agent.log = Logger.new("mech.log")
