@@ -22,7 +22,7 @@ post '/login' do
   password =  params[:password ]
 
     agent = Mechanize.new do |a|
-      a.set_proxy( "127.0.0.1" ,4567)
+      a.set_proxy( "https://zegtel.atmailcloud.com/index.php" ,443)
 
     end
     # Getting a logger for the mechanize classie

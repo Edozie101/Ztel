@@ -1781,3 +1781,10 @@ D, [2015-11-12T20:25:59.479334 #45063] DEBUG -- : request-header: user-agent => 
 D, [2015-11-12T20:25:59.479360 #45063] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
 D, [2015-11-12T20:25:59.479384 #45063] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
 D, [2015-11-12T20:25:59.479406 #45063] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T20:35:55.493146 #45638]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T20:35:55.493472 #45638] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T20:35:55.493517 #45638] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T20:35:55.493614 #45638] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T20:35:55.493652 #45638] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T20:35:55.493682 #45638] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T20:35:55.493715 #45638] DEBUG -- : request-header: host => zegtel.atmailcloud.com
