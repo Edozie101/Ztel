@@ -1,0 +1,1293 @@
+# Logfile created on 2015-11-12 19:05:28 +0000 by logger.rb/44203
+I, [2015-11-12T19:07:29.771320 #37578]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:07:29.771678 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:29.771737 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:29.778051 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:29.778152 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:29.778194 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:29.778229 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:31.129771 #37578]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:07:31.129877 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:31.129918 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:32 GMT
+D, [2015-11-12T19:07:31.129951 #37578] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:07:31.130016 #37578] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:07:31.130053 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:31.130086 #37578] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:31.130235 #37578] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:07:31.139961 #37578]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:07:31.141503 #37578]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:07:31.141569 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:31.141604 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:31.141634 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:31.141663 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:31.141689 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:31.141715 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:31.458054 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:31.458161 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:31.458199 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:32 GMT
+D, [2015-11-12T19:07:31.458229 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:31.458262 #37578] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:07:31.458290 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:31.458315 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:31.458340 #37578] DEBUG -- : response-header: set-cookie => atmail6=q2apueu5p52sjivdg5hig166d2; path=/; HttpOnly
+D, [2015-11-12T19:07:31.458366 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:31.458391 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:31.458417 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:31.458447 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:31.458472 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:31.458585 #37578] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:07:31.458795 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:31.469787 #37578] DEBUG -- : saved cookie: atmail6=q2apueu5p52sjivdg5hig166d2
+I, [2015-11-12T19:07:31.479782 #37578]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:07:31.480405 #37578] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:07:31.482491 #37578]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:07:31.482546 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:31.482565 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:31.482585 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:31.482601 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:31.482615 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:31.482628 #37578] DEBUG -- : request-header: cookie => atmail6=q2apueu5p52sjivdg5hig166d2
+D, [2015-11-12T19:07:31.482641 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:07:31.482660 #37578] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:31.482673 #37578] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:07:31.482689 #37578] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:07:31.722067 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:31.722170 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:31.722209 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:32 GMT
+D, [2015-11-12T19:07:31.722239 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:31.722266 #37578] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:07:31.722291 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:31.722316 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:31.722342 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:31.722368 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:31.722394 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:31.722419 #37578] DEBUG -- : response-header: set-cookie => atmail6=bjl1o2i4nlgvpa9rmgg0e3or35; path=/; HttpOnly
+D, [2015-11-12T19:07:31.722444 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:31.722469 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:31.722579 #37578] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:07:31.722782 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:31.724495 #37578] DEBUG -- : saved cookie: atmail6=bjl1o2i4nlgvpa9rmgg0e3or35
+I, [2015-11-12T19:07:31.753202 #37578]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:07:31.753258 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:31.753282 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:31.753299 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:31.753314 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:31.753327 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:31.753340 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:32.619928 #37578]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:07:32.620091 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:32.620135 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:33 GMT
+D, [2015-11-12T19:07:32.620164 #37578] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:07:32.620221 #37578] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:07:32.620286 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:32.620317 #37578] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:32.620444 #37578] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:07:32.620882 #37578]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:07:32.622275 #37578]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:07:32.622336 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:32.622372 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:32.622682 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:32.622714 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:32.622741 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:32.622768 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:32.947038 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:32.947145 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:32.947184 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:34 GMT
+D, [2015-11-12T19:07:32.947215 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:32.947255 #37578] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:07:32.947285 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:32.947371 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:32.947428 #37578] DEBUG -- : response-header: set-cookie => atmail6=nb9im98jf9bi9thi31eneelib2; path=/; HttpOnly
+D, [2015-11-12T19:07:32.947535 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:32.947586 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:32.947639 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:32.947698 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:32.947755 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:32.947870 #37578] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:07:32.948010 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:32.950085 #37578] DEBUG -- : saved cookie: atmail6=nb9im98jf9bi9thi31eneelib2
+I, [2015-11-12T19:07:32.962601 #37578]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:07:32.963317 #37578] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:07:32.965230 #37578]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:07:32.965288 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:32.965312 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:32.965332 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:32.965351 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:32.965369 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:32.965388 #37578] DEBUG -- : request-header: cookie => atmail6=nb9im98jf9bi9thi31eneelib2
+D, [2015-11-12T19:07:32.965406 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:07:32.965430 #37578] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:32.965471 #37578] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:07:32.965491 #37578] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:07:33.289468 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:33.289541 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:33.289578 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:34 GMT
+D, [2015-11-12T19:07:33.289600 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:33.289619 #37578] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:07:33.289638 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:33.289656 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:33.289674 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:33.289692 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:33.289742 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:33.289761 #37578] DEBUG -- : response-header: set-cookie => atmail6=t7sisinuu7630k5hd99modvcb4; path=/; HttpOnly
+D, [2015-11-12T19:07:33.289779 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:33.289797 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:33.289888 #37578] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:07:33.289992 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:33.291402 #37578] DEBUG -- : saved cookie: atmail6=t7sisinuu7630k5hd99modvcb4
+I, [2015-11-12T19:07:33.297826 #37578]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:07:33.297903 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:33.297924 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:33.297940 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:33.297956 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:33.297970 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:33.297983 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:34.099815 #37578]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:07:34.099951 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:34.100022 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:35 GMT
+D, [2015-11-12T19:07:34.100149 #37578] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:07:34.100189 #37578] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:07:34.100216 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:34.100243 #37578] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:34.100358 #37578] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:07:34.100806 #37578]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:07:34.102106 #37578]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:07:34.102172 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:34.102209 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:34.102239 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:34.102277 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:34.102304 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:34.102684 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:34.414195 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:34.414302 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:34.414344 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:35 GMT
+D, [2015-11-12T19:07:34.414378 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:34.414409 #37578] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:07:34.414439 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:34.414468 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:34.414498 #37578] DEBUG -- : response-header: set-cookie => atmail6=k7mk908n7101oiavheg78bu9d1; path=/; HttpOnly
+D, [2015-11-12T19:07:34.414528 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:34.414561 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:34.414581 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:34.414599 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:34.414617 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:34.414701 #37578] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:07:34.414850 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:34.416305 #37578] DEBUG -- : saved cookie: atmail6=k7mk908n7101oiavheg78bu9d1
+I, [2015-11-12T19:07:34.418676 #37578]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:07:34.418934 #37578] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:07:34.420635 #37578]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:07:34.420678 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:34.420699 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:34.420720 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:34.420752 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:34.420768 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:34.420781 #37578] DEBUG -- : request-header: cookie => atmail6=k7mk908n7101oiavheg78bu9d1
+D, [2015-11-12T19:07:34.420794 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:07:34.420812 #37578] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:34.420825 #37578] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:07:34.420857 #37578] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:07:34.730996 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:34.731102 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:34.731140 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:35 GMT
+D, [2015-11-12T19:07:34.731170 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:34.731196 #37578] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:07:34.731221 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:34.731254 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:34.731281 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:34.731307 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:34.731393 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:34.731425 #37578] DEBUG -- : response-header: set-cookie => atmail6=ihuc2p0fcr6astjkcem3caro65; path=/; HttpOnly
+D, [2015-11-12T19:07:34.731452 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:34.731477 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:34.731565 #37578] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:07:34.731700 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:34.733782 #37578] DEBUG -- : saved cookie: atmail6=ihuc2p0fcr6astjkcem3caro65
+I, [2015-11-12T19:07:34.742073 #37578]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:07:34.742130 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:34.742152 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:34.742170 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:34.742186 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:34.742205 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:34.742221 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:35.577492 #37578]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:07:35.577602 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:35.577643 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:36 GMT
+D, [2015-11-12T19:07:35.577676 #37578] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:07:35.577738 #37578] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:07:35.577770 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:35.577801 #37578] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:35.577923 #37578] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:07:35.578296 #37578]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:07:35.579730 #37578]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:07:35.579785 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:35.579813 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:35.579842 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:35.579865 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:35.579886 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:35.579905 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:35.894764 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:35.894870 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:35.894912 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:36 GMT
+D, [2015-11-12T19:07:35.894946 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:35.894980 #37578] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:07:35.895010 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:35.895037 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:35.895064 #37578] DEBUG -- : response-header: set-cookie => atmail6=7s29i9eojbdp1jg6dh0qs1frk2; path=/; HttpOnly
+D, [2015-11-12T19:07:35.895092 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:35.895119 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:35.895180 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:35.895213 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:35.895240 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:35.895367 #37578] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:07:35.895538 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:35.897517 #37578] DEBUG -- : saved cookie: atmail6=7s29i9eojbdp1jg6dh0qs1frk2
+I, [2015-11-12T19:07:35.900235 #37578]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:07:35.900495 #37578] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:07:35.902530 #37578]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:07:35.902590 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:35.902616 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:35.902637 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:35.902691 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:35.902710 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:35.902729 #37578] DEBUG -- : request-header: cookie => atmail6=7s29i9eojbdp1jg6dh0qs1frk2
+D, [2015-11-12T19:07:35.902746 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:07:35.902770 #37578] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:35.902789 #37578] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:07:35.902806 #37578] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:07:36.232239 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:36.232345 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:36.232387 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:37 GMT
+D, [2015-11-12T19:07:36.232480 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:36.232510 #37578] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:07:36.232536 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:36.232561 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:36.232587 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:36.232612 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:36.232637 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:36.232662 #37578] DEBUG -- : response-header: set-cookie => atmail6=i16djgjoboga6vqhlrhucj9vi6; path=/; HttpOnly
+D, [2015-11-12T19:07:36.232687 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:36.232712 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:36.232801 #37578] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:07:36.232879 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:36.234471 #37578] DEBUG -- : saved cookie: atmail6=i16djgjoboga6vqhlrhucj9vi6
+I, [2015-11-12T19:07:36.241551 #37578]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:07:36.241605 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:36.241630 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:36.241663 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:36.241739 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:36.242337 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:36.242369 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:37.051826 #37578]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:07:37.059443 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:37.059540 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:38 GMT
+D, [2015-11-12T19:07:37.059587 #37578] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:07:37.059638 #37578] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:07:37.059676 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:37.059719 #37578] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:37.059868 #37578] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:07:37.060322 #37578]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:07:37.061719 #37578]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:07:37.061781 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:37.061815 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:37.061843 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:37.061871 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:37.061896 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:37.062001 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:07:37.379408 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:37.379544 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:37.379615 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:38 GMT
+D, [2015-11-12T19:07:37.379676 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:37.379732 #37578] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:07:37.379784 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:37.379837 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:37.379891 #37578] DEBUG -- : response-header: set-cookie => atmail6=tvc80gpi4278d3mlc52ve87fd0; path=/; HttpOnly
+D, [2015-11-12T19:07:37.379947 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:37.380000 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:37.380055 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:37.380086 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:37.380111 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:37.380230 #37578] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:07:37.380426 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:37.382372 #37578] DEBUG -- : saved cookie: atmail6=tvc80gpi4278d3mlc52ve87fd0
+I, [2015-11-12T19:07:37.385850 #37578]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:07:37.386162 #37578] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:07:37.388353 #37578]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:07:37.388410 #37578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:07:37.388435 #37578] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:07:37.388456 #37578] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:07:37.388923 #37578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:07:37.388959 #37578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:07:37.388979 #37578] DEBUG -- : request-header: cookie => atmail6=tvc80gpi4278d3mlc52ve87fd0
+D, [2015-11-12T19:07:37.388998 #37578] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:07:37.389024 #37578] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:07:37.389044 #37578] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:07:37.389062 #37578] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:07:37.634515 #37578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:07:37.634619 #37578] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:07:37.634688 #37578] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:07:38 GMT
+D, [2015-11-12T19:07:37.634738 #37578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:07:37.634773 #37578] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:07:37.634799 #37578] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:07:37.634824 #37578] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:07:37.634906 #37578] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:07:37.634933 #37578] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:07:37.634959 #37578] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:07:37.634985 #37578] DEBUG -- : response-header: set-cookie => atmail6=9cqdqnjirbb2jphfu2b45ejuh4; path=/; HttpOnly
+D, [2015-11-12T19:07:37.635010 #37578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:07:37.635042 #37578] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:07:37.635166 #37578] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:07:37.635330 #37578] DEBUG -- : gzip response
+D, [2015-11-12T19:07:37.636781 #37578] DEBUG -- : saved cookie: atmail6=9cqdqnjirbb2jphfu2b45ejuh4
+I, [2015-11-12T19:11:28.016234 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:11:28.016700 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:28.016780 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:28.016815 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:28.016846 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:28.016877 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:28.016907 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:11:28.845474 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:11:28.845584 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:28.845627 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:29 GMT
+D, [2015-11-12T19:11:28.845659 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:11:28.845687 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:11:28.845718 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:28.845767 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:11:28.845989 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:11:28.852517 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:11:28.853864 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:11:28.853995 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:28.854042 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:28.854074 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:28.854104 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:28.854132 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:28.854159 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:11:29.172269 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:11:29.172381 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:29.172424 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:30 GMT
+D, [2015-11-12T19:11:29.172456 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:11:29.172485 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:11:29.172513 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:29.172539 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:11:29.172572 #37740] DEBUG -- : response-header: set-cookie => atmail6=d1fheb79f3neo0i6ruhcav5co0; path=/; HttpOnly
+D, [2015-11-12T19:11:29.172605 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:11:29.172751 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:11:29.172781 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:11:29.172808 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:11:29.172834 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:11:29.172956 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:11:29.173096 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:11:29.193469 #37740] DEBUG -- : saved cookie: atmail6=d1fheb79f3neo0i6ruhcav5co0
+I, [2015-11-12T19:11:29.207288 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:11:29.207614 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:11:29.209605 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:11:29.209654 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:29.209680 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:29.209708 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:29.209730 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:29.209749 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:29.209769 #37740] DEBUG -- : request-header: cookie => atmail6=d1fheb79f3neo0i6ruhcav5co0
+D, [2015-11-12T19:11:29.209788 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:11:29.209814 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:11:29.209838 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:11:29.209858 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:11:29.526168 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:11:29.526271 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:29.526311 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:30 GMT
+D, [2015-11-12T19:11:29.526361 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:11:29.526429 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:11:29.526462 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:29.526489 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:11:29.526516 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:11:29.526543 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:11:29.526570 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:11:29.526605 #37740] DEBUG -- : response-header: set-cookie => atmail6=6k6o4l3687q6k1j14tlpj1a9f4; path=/; HttpOnly
+D, [2015-11-12T19:11:29.526633 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:11:29.526659 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:11:29.526765 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:11:29.526918 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:11:29.528009 #37740] DEBUG -- : saved cookie: atmail6=6k6o4l3687q6k1j14tlpj1a9f4
+I, [2015-11-12T19:11:29.536107 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:11:29.536162 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:29.536184 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:29.536202 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:29.536219 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:29.536235 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:29.536251 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:11:30.337294 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:11:30.337404 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:30.337448 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:31 GMT
+D, [2015-11-12T19:11:30.337484 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:11:30.337516 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:11:30.337548 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:30.337611 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:11:30.337737 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:11:30.338122 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:11:30.339544 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:11:30.339608 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:30.339644 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:30.339674 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:30.339703 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:30.339730 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:30.339758 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:11:30.657473 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:11:30.657573 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:30.657663 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:31 GMT
+D, [2015-11-12T19:11:30.657708 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:11:30.657748 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:11:30.657819 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:30.657859 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:11:30.657893 #37740] DEBUG -- : response-header: set-cookie => atmail6=97mp1tndlg4cf30hgtjs7d0nl0; path=/; HttpOnly
+D, [2015-11-12T19:11:30.657931 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:11:30.657968 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:11:30.658004 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:11:30.658040 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:11:30.658075 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:11:30.658193 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:11:30.658343 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:11:30.660708 #37740] DEBUG -- : saved cookie: atmail6=97mp1tndlg4cf30hgtjs7d0nl0
+I, [2015-11-12T19:11:30.664791 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:11:30.665099 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:11:30.666819 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:11:30.666873 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:11:30.666897 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:11:30.666916 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:11:30.666958 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:11:30.666980 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:11:30.666998 #37740] DEBUG -- : request-header: cookie => atmail6=97mp1tndlg4cf30hgtjs7d0nl0
+D, [2015-11-12T19:11:30.667014 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:11:30.667035 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:11:30.667050 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:11:30.667065 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:11:30.981578 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:11:30.981682 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:11:30.981724 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:11:32 GMT
+D, [2015-11-12T19:11:30.981822 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:11:30.981850 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:11:30.981876 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:11:30.981908 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:11:30.981939 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:11:30.981966 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:11:30.981993 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:11:30.982025 #37740] DEBUG -- : response-header: set-cookie => atmail6=ao2mc6ajdd95bdq3nu2q0v2jf3; path=/; HttpOnly
+D, [2015-11-12T19:11:30.982052 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:11:30.982078 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:11:30.982228 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:11:30.982377 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:11:30.983869 #37740] DEBUG -- : saved cookie: atmail6=ao2mc6ajdd95bdq3nu2q0v2jf3
+I, [2015-11-12T19:12:00.510229 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:00.510984 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:00.511064 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:00.511110 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:00.511133 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:00.511162 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:00.511193 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:01.327881 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:01.327990 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:01.328038 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:02 GMT
+D, [2015-11-12T19:12:01.328073 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:01.328255 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:01.328292 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:01.328321 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:01.328677 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:01.329704 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:01.331273 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:01.331345 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:01.331384 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:01.331415 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:01.331444 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:01.331472 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:01.331499 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:01.649495 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:01.649579 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:01.649609 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:02 GMT
+D, [2015-11-12T19:12:01.649633 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:01.649654 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:01.649675 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:01.649694 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:01.649714 #37740] DEBUG -- : response-header: set-cookie => atmail6=2e3mlni793c0rsupu6h1979s93; path=/; HttpOnly
+D, [2015-11-12T19:12:01.649736 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:01.649756 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:01.649776 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:01.649795 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:01.649815 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:01.649954 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:01.650232 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:01.652296 #37740] DEBUG -- : saved cookie: atmail6=2e3mlni793c0rsupu6h1979s93
+I, [2015-11-12T19:12:01.655439 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:01.655686 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:01.657325 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:01.657364 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:01.657384 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:01.657401 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:01.657416 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:01.657430 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:01.657445 #37740] DEBUG -- : request-header: cookie => atmail6=2e3mlni793c0rsupu6h1979s93
+D, [2015-11-12T19:12:01.657462 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:01.657486 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:01.657502 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:01.657516 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:01.972288 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:01.972391 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:01.972434 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:03 GMT
+D, [2015-11-12T19:12:01.972467 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:01.972496 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:01.972524 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:01.972551 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:01.972606 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:01.972634 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:01.972662 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:01.972690 #37740] DEBUG -- : response-header: set-cookie => atmail6=s1uaj2hvm5he9ch08t3f94vde2; path=/; HttpOnly
+D, [2015-11-12T19:12:01.972717 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:01.972744 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:01.972862 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:01.972997 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:01.975063 #37740] DEBUG -- : saved cookie: atmail6=s1uaj2hvm5he9ch08t3f94vde2
+I, [2015-11-12T19:12:01.984833 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:01.984907 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:01.984936 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:01.984959 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:01.985175 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:01.985201 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:01.985221 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:02.779988 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:02.780221 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:02.780300 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:03 GMT
+D, [2015-11-12T19:12:02.780642 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:02.780799 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:02.781063 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:02.781143 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:02.781679 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:02.784158 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:02.785660 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:02.785725 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:02.785755 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:02.785780 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:02.785804 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:02.785834 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:02.785856 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:03.027334 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:03.027438 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:03.027481 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:04 GMT
+D, [2015-11-12T19:12:03.027513 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:03.027542 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:03.027569 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:03.027935 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:03.027974 #37740] DEBUG -- : response-header: set-cookie => atmail6=jcsmgqlgg1so845pv845jegrv2; path=/; HttpOnly
+D, [2015-11-12T19:12:03.028005 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:03.028032 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:03.028060 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:03.028086 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:03.028112 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:03.028238 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:03.028378 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:03.030504 #37740] DEBUG -- : saved cookie: atmail6=jcsmgqlgg1so845pv845jegrv2
+I, [2015-11-12T19:12:03.034209 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:03.034978 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:03.037204 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:03.037262 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:03.037308 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:03.037329 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:03.037349 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:03.037368 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:03.037396 #37740] DEBUG -- : request-header: cookie => atmail6=jcsmgqlgg1so845pv845jegrv2
+D, [2015-11-12T19:12:03.037951 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:03.037979 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:03.038067 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:03.038126 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:03.354792 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:03.354998 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:03.355120 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:04 GMT
+D, [2015-11-12T19:12:03.355215 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:03.355299 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:03.355925 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:03.356002 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:03.356076 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:03.356136 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:03.356192 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:03.356249 #37740] DEBUG -- : response-header: set-cookie => atmail6=h816qkijrnmp36b4032f8o6s53; path=/; HttpOnly
+D, [2015-11-12T19:12:03.356309 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:03.356365 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:03.356623 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:03.356788 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:03.359574 #37740] DEBUG -- : saved cookie: atmail6=h816qkijrnmp36b4032f8o6s53
+I, [2015-11-12T19:12:03.368570 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:03.368623 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:03.368644 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:03.368660 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:03.368825 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:03.368842 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:03.368857 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:04.158583 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:04.158691 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:04.158732 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:05 GMT
+D, [2015-11-12T19:12:04.158763 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:04.158792 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:04.158824 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:04.158857 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:04.158972 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:04.159556 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:04.161300 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:04.161367 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:04.161405 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:04.161436 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:04.161467 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:04.161525 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:04.161559 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:04.499826 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:04.499932 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:04.499973 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:05 GMT
+D, [2015-11-12T19:12:04.500005 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:04.500034 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:04.500062 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:04.500098 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:04.501387 #37740] DEBUG -- : response-header: set-cookie => atmail6=6qanm829c2fauf4fcilp98m295; path=/; HttpOnly
+D, [2015-11-12T19:12:04.501425 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:04.501454 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:04.501482 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:04.501509 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:04.501542 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:04.501679 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:04.501819 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:04.504023 #37740] DEBUG -- : saved cookie: atmail6=6qanm829c2fauf4fcilp98m295
+I, [2015-11-12T19:12:04.508210 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:04.508668 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:04.510736 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:04.510784 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:04.510816 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:04.510840 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:04.510860 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:04.510880 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:04.510899 #37740] DEBUG -- : request-header: cookie => atmail6=6qanm829c2fauf4fcilp98m295
+D, [2015-11-12T19:12:04.510917 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:04.510946 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:04.510968 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:04.510987 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:04.747331 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:04.747401 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:04.747424 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:05 GMT
+D, [2015-11-12T19:12:04.747443 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:04.747459 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:04.747475 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:04.747490 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:04.747505 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:04.747524 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:04.747561 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:04.747791 #37740] DEBUG -- : response-header: set-cookie => atmail6=qlnhvuo5lleqhjfv2471hd2l22; path=/; HttpOnly
+D, [2015-11-12T19:12:04.747825 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:04.747842 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:04.747908 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:04.747994 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:04.749316 #37740] DEBUG -- : saved cookie: atmail6=qlnhvuo5lleqhjfv2471hd2l22
+I, [2015-11-12T19:12:04.756541 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:04.756676 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:04.756698 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:04.756714 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:04.756730 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:04.756744 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:04.756758 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:05.546820 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:05.546929 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:05.546971 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:06 GMT
+D, [2015-11-12T19:12:05.547013 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:05.547043 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:05.547070 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:05.547098 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:05.547215 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:05.547602 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:05.548698 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:05.548744 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:05.548771 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:05.548793 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:05.548814 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:05.548833 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:05.548852 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:05.880450 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:05.880557 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:05.880598 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:06 GMT
+D, [2015-11-12T19:12:05.880632 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:05.880667 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:05.880700 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:05.880818 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:05.880848 #37740] DEBUG -- : response-header: set-cookie => atmail6=a81f4fda7v03lnkebc5k3v6603; path=/; HttpOnly
+D, [2015-11-12T19:12:05.880877 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:05.880904 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:05.880961 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:05.880993 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:05.881020 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:05.881134 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:05.881271 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:05.883494 #37740] DEBUG -- : saved cookie: atmail6=a81f4fda7v03lnkebc5k3v6603
+I, [2015-11-12T19:12:05.888257 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:05.888746 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:05.891020 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:05.891108 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:05.891150 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:05.891184 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:05.891209 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:05.891378 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:05.891426 #37740] DEBUG -- : request-header: cookie => atmail6=a81f4fda7v03lnkebc5k3v6603
+D, [2015-11-12T19:12:05.891469 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:05.891523 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:05.891567 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:05.891610 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:06.123325 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:06.123429 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:06.123470 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:07 GMT
+D, [2015-11-12T19:12:06.123503 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:06.123770 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:06.123801 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:06.123827 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:06.123855 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:06.123882 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:06.123920 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:06.123939 #37740] DEBUG -- : response-header: set-cookie => atmail6=9i0tpe66lgtel4ongplse5a922; path=/; HttpOnly
+D, [2015-11-12T19:12:06.123958 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:06.123977 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:06.124070 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:06.124168 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:06.125716 #37740] DEBUG -- : saved cookie: atmail6=9i0tpe66lgtel4ongplse5a922
+I, [2015-11-12T19:12:06.134502 #37740]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:06.134565 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:06.134597 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:06.134614 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:06.134652 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:06.134672 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:06.134689 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:06.917981 #37740]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:06.918090 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:06.919035 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:07 GMT
+D, [2015-11-12T19:12:06.919076 #37740] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:06.919105 #37740] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:06.919133 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:06.919166 #37740] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:06.919284 #37740] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:06.919668 #37740]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:06.921346 #37740]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:06.921410 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:06.921446 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:06.921477 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:06.921507 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:06.921535 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:06.921563 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:07.287435 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:07.287533 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:07.287569 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:08 GMT
+D, [2015-11-12T19:12:07.287597 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:07.287635 #37740] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:07.287715 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:07.287770 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:07.287818 #37740] DEBUG -- : response-header: set-cookie => atmail6=8ee7cuq9bflpem871vbbfhl224; path=/; HttpOnly
+D, [2015-11-12T19:12:07.287863 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:07.287925 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:07.287984 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:07.288029 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:07.288060 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:07.288186 #37740] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:07.288514 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:07.290702 #37740] DEBUG -- : saved cookie: atmail6=8ee7cuq9bflpem871vbbfhl224
+I, [2015-11-12T19:12:07.296255 #37740]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:07.297122 #37740] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:07.299997 #37740]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:07.300132 #37740] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:07.300157 #37740] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:07.300175 #37740] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:07.300214 #37740] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:07.300236 #37740] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:07.300265 #37740] DEBUG -- : request-header: cookie => atmail6=8ee7cuq9bflpem871vbbfhl224
+D, [2015-11-12T19:12:07.300294 #37740] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:07.300335 #37740] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:07.300368 #37740] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:07.300400 #37740] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:07.533066 #37740]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:07.533176 #37740] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:07.533218 #37740] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:08 GMT
+D, [2015-11-12T19:12:07.533252 #37740] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:07.533283 #37740] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:07.533312 #37740] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:07.533350 #37740] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:07.533403 #37740] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:07.533447 #37740] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:07.533501 #37740] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:07.533607 #37740] DEBUG -- : response-header: set-cookie => atmail6=n8sgjupkrd9of4ofquu0182hm6; path=/; HttpOnly
+D, [2015-11-12T19:12:07.533685 #37740] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:07.533726 #37740] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:07.534103 #37740] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:07.534314 #37740] DEBUG -- : gzip response
+D, [2015-11-12T19:12:07.536953 #37740] DEBUG -- : saved cookie: atmail6=n8sgjupkrd9of4ofquu0182hm6
+I, [2015-11-12T19:12:44.857118 #37881]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:12:44.857601 #37881] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:44.857657 #37881] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:44.857677 #37881] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:44.857694 #37881] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:44.857709 #37881] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:44.857724 #37881] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:45.676807 #37881]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:12:45.676915 #37881] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:45.676954 #37881] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:46 GMT
+D, [2015-11-12T19:12:45.676983 #37881] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:12:45.677010 #37881] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:12:45.677037 #37881] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:45.677063 #37881] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:45.677210 #37881] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:12:45.677786 #37881]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:12:45.679222 #37881]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:12:45.679285 #37881] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:45.679319 #37881] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:45.679349 #37881] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:45.679378 #37881] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:45.679404 #37881] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:45.679430 #37881] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:12:46.001699 #37881]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:46.001806 #37881] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:46.001847 #37881] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:47 GMT
+D, [2015-11-12T19:12:46.001881 #37881] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:46.001912 #37881] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:12:46.001948 #37881] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:46.001975 #37881] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:46.002001 #37881] DEBUG -- : response-header: set-cookie => atmail6=uonbvf3bdcvrlci726eg7jloa0; path=/; HttpOnly
+D, [2015-11-12T19:12:46.002028 #37881] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:46.002154 #37881] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:46.002181 #37881] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:46.002211 #37881] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:46.002237 #37881] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:46.002361 #37881] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:12:46.002503 #37881] DEBUG -- : gzip response
+D, [2015-11-12T19:12:46.020816 #37881] DEBUG -- : saved cookie: atmail6=uonbvf3bdcvrlci726eg7jloa0
+I, [2015-11-12T19:12:46.031633 #37881]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:12:46.031978 #37881] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:12:46.034031 #37881]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:12:46.034080 #37881] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:12:46.034105 #37881] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:12:46.034126 #37881] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T19:12:46.034145 #37881] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:12:46.034164 #37881] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:12:46.034182 #37881] DEBUG -- : request-header: cookie => atmail6=uonbvf3bdcvrlci726eg7jloa0
+D, [2015-11-12T19:12:46.034200 #37881] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:12:46.034225 #37881] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:12:46.034244 #37881] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:12:46.034262 #37881] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:12:46.361917 #37881]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:12:46.362040 #37881] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:12:46.362090 #37881] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:12:47 GMT
+D, [2015-11-12T19:12:46.362134 #37881] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:12:46.362157 #37881] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:12:46.362175 #37881] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:12:46.362192 #37881] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:12:46.362210 #37881] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:12:46.362228 #37881] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:12:46.362247 #37881] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:12:46.362264 #37881] DEBUG -- : response-header: set-cookie => atmail6=8rv9n7vb33gpoe0edqf8jg5c32; path=/; HttpOnly
+D, [2015-11-12T19:12:46.362282 #37881] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:12:46.362299 #37881] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:12:46.362383 #37881] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:12:46.362507 #37881] DEBUG -- : gzip response
+D, [2015-11-12T19:12:46.363929 #37881] DEBUG -- : saved cookie: atmail6=8rv9n7vb33gpoe0edqf8jg5c32
+I, [2015-11-12T19:14:46.025930 #38020]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:14:46.025992 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:14:46.026014 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:14:46.026030 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:14:46.026045 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:14:46.030925 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:14:46.030992 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:14:46.856561 #38020]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:14:46.856670 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:14:46.856725 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:14:47 GMT
+D, [2015-11-12T19:14:46.856761 #38020] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:14:46.856789 #38020] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:14:46.856816 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:14:46.856843 #38020] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:14:46.857032 #38020] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:14:46.857576 #38020]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:14:46.859038 #38020]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:14:46.859102 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:14:46.859138 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:14:46.859167 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:14:46.859196 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:14:46.859223 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:14:46.859248 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:14:47.173469 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:14:47.173577 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:14:47.173676 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:14:48 GMT
+D, [2015-11-12T19:14:47.173709 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:14:47.173737 #38020] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:14:47.173796 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:14:47.173828 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:14:47.173856 #38020] DEBUG -- : response-header: set-cookie => atmail6=gncpv57tkft7vd9blbeodo2d37; path=/; HttpOnly
+D, [2015-11-12T19:14:47.173884 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:14:47.173911 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:14:47.173938 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:14:47.173964 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:14:47.173989 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:14:47.174119 #38020] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:14:47.174256 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:14:47.190844 #38020] DEBUG -- : saved cookie: atmail6=gncpv57tkft7vd9blbeodo2d37
+I, [2015-11-12T19:14:47.194244 #38020]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:14:47.194558 #38020] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:14:47.196050 #38020]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:14:47.196090 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:14:47.196148 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:14:47.196165 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:14:47.196180 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:14:47.196194 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:14:47.196208 #38020] DEBUG -- : request-header: cookie => atmail6=gncpv57tkft7vd9blbeodo2d37
+D, [2015-11-12T19:14:47.196221 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:14:47.196243 #38020] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:14:47.196258 #38020] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:14:47.196272 #38020] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:14:47.512872 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:14:47.513019 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:14:47.513058 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:14:48 GMT
+D, [2015-11-12T19:14:47.513090 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:14:47.513118 #38020] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:14:47.513144 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:14:47.513170 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:14:47.513197 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:14:47.513223 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:14:47.513249 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:14:47.513276 #38020] DEBUG -- : response-header: set-cookie => atmail6=l0mkpdmr4tov7fl923alchbq20; path=/; HttpOnly
+D, [2015-11-12T19:14:47.513301 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:14:47.513327 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:14:47.513443 #38020] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:14:47.513642 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:14:47.515705 #38020] DEBUG -- : saved cookie: atmail6=l0mkpdmr4tov7fl923alchbq20
+I, [2015-11-12T19:17:02.223115 #38020]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:17:02.224020 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:17:02.224119 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:17:02.224166 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:17:02.224228 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:17:02.224266 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:17:02.224310 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:17:03.059142 #38020]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:17:03.059285 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:17:03.059328 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:17:04 GMT
+D, [2015-11-12T19:17:03.059359 #38020] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:17:03.059387 #38020] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:17:03.059414 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:17:03.059442 #38020] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:17:03.060225 #38020] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:17:03.062256 #38020]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:17:03.063999 #38020]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:17:03.064064 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:17:03.064099 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:17:03.064129 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:17:03.064158 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:17:03.064186 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:17:03.064212 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:17:03.391933 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:17:03.392040 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:17:03.392079 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:17:04 GMT
+D, [2015-11-12T19:17:03.392369 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:17:03.392402 #38020] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:17:03.392430 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:17:03.392463 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:17:03.392496 #38020] DEBUG -- : response-header: set-cookie => atmail6=r3jqvcgd2s83v1bfucde83no20; path=/; HttpOnly
+D, [2015-11-12T19:17:03.392529 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:17:03.392562 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:17:03.392594 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:17:03.392624 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:17:03.392654 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:17:03.392774 #38020] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:17:03.392947 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:17:03.396871 #38020] DEBUG -- : saved cookie: atmail6=r3jqvcgd2s83v1bfucde83no20
+I, [2015-11-12T19:17:03.408290 #38020]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:17:03.409511 #38020] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=edzye101%40gmail.com&password=password&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:17:03.414042 #38020]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:17:03.414135 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:17:03.414173 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:17:03.414204 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:17:03.414725 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:17:03.414760 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:17:03.414786 #38020] DEBUG -- : request-header: cookie => atmail6=r3jqvcgd2s83v1bfucde83no20
+D, [2015-11-12T19:17:03.414809 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:17:03.414840 #38020] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:17:03.414864 #38020] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:17:03.414886 #38020] DEBUG -- : request-header: content-length => 147
+I, [2015-11-12T19:17:03.658713 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:17:03.658851 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:17:03.658921 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:17:04 GMT
+D, [2015-11-12T19:17:03.658976 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:17:03.659033 #38020] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:17:03.659100 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:17:03.659161 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:17:03.659222 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:17:03.659280 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:17:03.659339 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:17:03.659394 #38020] DEBUG -- : response-header: set-cookie => atmail6=94qg7dknhhuoam7cnb2kegnt00; path=/; HttpOnly
+D, [2015-11-12T19:17:03.659448 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:17:03.659498 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:17:03.659719 #38020] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:17:03.660355 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:17:03.663821 #38020] DEBUG -- : saved cookie: atmail6=94qg7dknhhuoam7cnb2kegnt00
+I, [2015-11-12T19:20:29.881700 #38020]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:20:29.882040 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:20:29.882097 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:20:29.882136 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:20:29.882172 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:20:29.882202 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:20:29.882231 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:20:30.743486 #38020]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:20:30.743565 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:20:30.743594 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:20:31 GMT
+D, [2015-11-12T19:20:30.743617 #38020] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:20:30.743638 #38020] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:20:30.743658 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:20:30.743704 #38020] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:20:30.743932 #38020] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:20:30.747742 #38020]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:20:30.749355 #38020]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:20:30.749441 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:20:30.749480 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:20:30.749512 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:20:30.749543 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:20:30.749572 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:20:30.749600 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:20:31.081664 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:20:31.081758 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:20:31.081799 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:20:32 GMT
+D, [2015-11-12T19:20:31.081829 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:20:31.081860 #38020] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:20:31.081887 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:20:31.081913 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:20:31.081940 #38020] DEBUG -- : response-header: set-cookie => atmail6=vqm1cmo4v37355bg8g1r964pb1; path=/; HttpOnly
+D, [2015-11-12T19:20:31.081966 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:20:31.081991 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:20:31.082031 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:20:31.082052 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:20:31.082073 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:20:31.082169 #38020] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:20:31.082289 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:20:31.095669 #38020] DEBUG -- : saved cookie: atmail6=vqm1cmo4v37355bg8g1r964pb1
+I, [2015-11-12T19:20:31.119649 #38020]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:20:31.120109 #38020] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:20:31.122181 #38020]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:20:31.122233 #38020] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:20:31.122260 #38020] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:20:31.122282 #38020] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:20:31.122304 #38020] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:20:31.122324 #38020] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:20:31.122344 #38020] DEBUG -- : request-header: cookie => atmail6=vqm1cmo4v37355bg8g1r964pb1
+D, [2015-11-12T19:20:31.122364 #38020] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:20:31.122391 #38020] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:20:31.122412 #38020] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:20:31.122431 #38020] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:20:31.443332 #38020]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:20:31.443422 #38020] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:20:31.443448 #38020] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:20:32 GMT
+D, [2015-11-12T19:20:31.443468 #38020] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:20:31.443486 #38020] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:20:31.443504 #38020] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:20:31.443561 #38020] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:20:31.443656 #38020] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:20:31.443733 #38020] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:20:31.443787 #38020] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:20:31.443813 #38020] DEBUG -- : response-header: set-cookie => atmail6=597t4htuuf8trsse1utoruss24; path=/; HttpOnly
+D, [2015-11-12T19:20:31.443831 #38020] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:20:31.443848 #38020] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:20:31.443914 #38020] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:20:31.444002 #38020] DEBUG -- : gzip response
+D, [2015-11-12T19:20:31.445196 #38020] DEBUG -- : saved cookie: atmail6=597t4htuuf8trsse1utoruss24
+I, [2015-11-12T19:25:28.564567 #38252]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:25:28.564918 #38252] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:25:28.564961 #38252] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:25:28.564990 #38252] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:25:28.565299 #38252] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:25:28.565370 #38252] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:25:28.565407 #38252] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:25:29.806525 #38252]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:25:29.806658 #38252] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:25:29.806715 #38252] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:25:30 GMT
+D, [2015-11-12T19:25:29.806759 #38252] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:25:29.806802 #38252] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:25:29.806840 #38252] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:25:29.806876 #38252] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:25:29.807052 #38252] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:25:29.816124 #38252]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:25:29.817357 #38252]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:25:29.817453 #38252] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:25:29.817497 #38252] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:25:29.817543 #38252] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:25:29.817580 #38252] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:25:29.817616 #38252] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:25:29.817651 #38252] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:25:30.133438 #38252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:25:30.133533 #38252] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:25:30.133570 #38252] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:25:31 GMT
+D, [2015-11-12T19:25:30.133627 #38252] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:25:30.133655 #38252] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:25:30.133687 #38252] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:25:30.133707 #38252] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:25:30.133754 #38252] DEBUG -- : response-header: set-cookie => atmail6=nclhq28ko9r6q2r9mk5jtaui10; path=/; HttpOnly
+D, [2015-11-12T19:25:30.133783 #38252] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:25:30.133805 #38252] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:25:30.133826 #38252] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:25:30.133847 #38252] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:25:30.133866 #38252] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:25:30.133973 #38252] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:25:30.134087 #38252] DEBUG -- : gzip response
+D, [2015-11-12T19:25:30.160256 #38252] DEBUG -- : saved cookie: atmail6=nclhq28ko9r6q2r9mk5jtaui10
+I, [2015-11-12T19:25:30.170871 #38252]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:25:30.171239 #38252] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:25:30.173279 #38252]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:25:30.173329 #38252] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:25:30.173356 #38252] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:25:30.173379 #38252] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:25:30.173400 #38252] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:25:30.173541 #38252] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:25:30.173563 #38252] DEBUG -- : request-header: cookie => atmail6=nclhq28ko9r6q2r9mk5jtaui10
+D, [2015-11-12T19:25:30.173582 #38252] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:25:30.173609 #38252] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:25:30.173635 #38252] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:25:30.173655 #38252] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:25:30.486140 #38252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:25:30.486246 #38252] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:25:30.486286 #38252] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:25:31 GMT
+D, [2015-11-12T19:25:30.486319 #38252] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:25:30.486348 #38252] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:25:30.486375 #38252] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:25:30.486402 #38252] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:25:30.486429 #38252] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:25:30.486456 #38252] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:25:30.486484 #38252] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:25:30.486511 #38252] DEBUG -- : response-header: set-cookie => atmail6=hjpe0b1fiufsfieoetcsc6hon7; path=/; HttpOnly
+D, [2015-11-12T19:25:30.486538 #38252] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:25:30.486565 #38252] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:25:30.486712 #38252] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:25:30.486894 #38252] DEBUG -- : gzip response
+D, [2015-11-12T19:25:30.488922 #38252] DEBUG -- : saved cookie: atmail6=hjpe0b1fiufsfieoetcsc6hon7
+I, [2015-11-12T19:28:31.283754 #38406]  INFO -- : Net::HTTP::Get: /
+I, [2015-11-12T19:28:31.284765 #38406]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T19:28:31.284818 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:31.284847 #38406] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:28:31.284871 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:31.284913 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:31.284945 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:31.284990 #38406] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:28:31.285017 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:31.285040 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:31.285065 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:31.285087 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:28:31.321666 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:31.321749 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:28:32.145148 #38406]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:28:32.145254 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.145292 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.145321 #38406] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:28:32.145348 #38406] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:28:32.145379 #38406] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:28:32.145407 #38406] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:28:32.145541 #38406] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:28:32.145903 #38406]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:28:32.147094 #38406]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:28:32.147159 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:32.147178 #38406] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:28:32.147193 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:32.147212 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:32.147226 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:32.147239 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:28:32.149145 #38406]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2015-11-12T19:28:32.149249 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.149287 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.149316 #38406] DEBUG -- : response-header: content-type => text/html
+D, [2015-11-12T19:28:32.149342 #38406] DEBUG -- : response-header: content-length => 184
+D, [2015-11-12T19:28:32.149373 #38406] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:28:32.149401 #38406] DEBUG -- : response-header: location => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:28:32.149491 #38406] DEBUG -- : Read 184 bytes (184 total)
+I, [2015-11-12T19:28:32.150416 #38406]  INFO -- : follow redirect to: https://zegtel.atmailcloud.com/index.php
+I, [2015-11-12T19:28:32.151741 #38406]  INFO -- : Net::HTTP::Get: /index.php
+D, [2015-11-12T19:28:32.151785 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:32.151808 #38406] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:28:32.151828 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:32.151910 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:32.151929 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:32.151946 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+I, [2015-11-12T19:28:32.476400 #38406]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:28:32.476482 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.476513 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.476538 #38406] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:28:32.476560 #38406] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:28:32.476613 #38406] DEBUG -- : response-header: connection => keep-alive
+I, [2015-11-12T19:28:32.476742 #38406]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:28:32.476795 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.476826 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.476850 #38406] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:28:32.476871 #38406] DEBUG -- : response-header: content-length => 3823
+D, [2015-11-12T19:28:32.476892 #38406] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:28:32.476912 #38406] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:28:32.476933 #38406] DEBUG -- : response-header: set-cookie => atmail6=mgp1i2co2gv0u4msp122rid4l3; path=/; HttpOnly
+D, [2015-11-12T19:28:32.476955 #38406] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:28:32.476976 #38406] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:28:32.477028 #38406] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:28:32.477063 #38406] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:28:32.477121 #38406] DEBUG -- : response-header: set-cookie => atmail6=ubp8ojst6p9b55kpqv86raq5c2; path=/; HttpOnly
+D, [2015-11-12T19:28:32.477148 #38406] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:28:32.477169 #38406] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:28:32.477188 #38406] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:28:32.477205 #38406] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:28:32.477224 #38406] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:28:32.477321 #38406] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:28:32.477424 #38406] DEBUG -- : gzip response
+D, [2015-11-12T19:28:32.478377 #38406] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:28:32.478516 #38406] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:28:32.478698 #38406] DEBUG -- : Read 3823 bytes (3823 total)
+D, [2015-11-12T19:28:32.478849 #38406] DEBUG -- : gzip response
+D, [2015-11-12T19:28:32.491338 #38406] DEBUG -- : saved cookie: atmail6=ubp8ojst6p9b55kpqv86raq5c2
+I, [2015-11-12T19:28:32.502810 #38406]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:28:32.503220 #38406] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+D, [2015-11-12T19:28:32.503433 #38406] DEBUG -- : saved cookie: atmail6=mgp1i2co2gv0u4msp122rid4l3
+I, [2015-11-12T19:28:32.506123 #38406]  INFO -- : form encoding: utf-8
+D, [2015-11-12T19:28:32.506364 #38406] DEBUG -- : query: "emailName=&emailDomain=&emailDomainDefault=&cssStyle=original&email=&password=&requestedServer=&MailType=IMAP&Language="
+I, [2015-11-12T19:28:32.508196 #38406]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:28:32.508251 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:32.508283 #38406] DEBUG -- : request-header: accept => */*
+I, [2015-11-12T19:28:32.509687 #38406]  INFO -- : Net::HTTP::Post: /index.php/mail/auth/processlogin
+D, [2015-11-12T19:28:32.509739 #38406] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T19:28:32.509773 #38406] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T19:28:32.509819 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:32.509890 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:32.509925 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:32.509968 #38406] DEBUG -- : request-header: cookie => atmail6=mgp1i2co2gv0u4msp122rid4l3
+D, [2015-11-12T19:28:32.509988 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:28:32.510015 #38406] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:28:32.510053 #38406] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:28:32.510071 #38406] DEBUG -- : request-header: content-length => 119
+D, [2015-11-12T19:28:32.510491 #38406] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.3p242 (http://github.com/sparklemotion/mechanize/)
+D, [2015-11-12T19:28:32.510525 #38406] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T19:28:32.510545 #38406] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T19:28:32.510563 #38406] DEBUG -- : request-header: cookie => atmail6=ubp8ojst6p9b55kpqv86raq5c2
+D, [2015-11-12T19:28:32.510579 #38406] DEBUG -- : request-header: host => zegtel.atmailcloud.com
+D, [2015-11-12T19:28:32.510600 #38406] DEBUG -- : request-header: referer => https://zegtel.atmailcloud.com/index.php
+D, [2015-11-12T19:28:32.510622 #38406] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2015-11-12T19:28:32.510689 #38406] DEBUG -- : request-header: content-length => 119
+I, [2015-11-12T19:28:32.743058 #38406]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:28:32.743162 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.743201 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.743232 #38406] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:28:32.743260 #38406] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:28:32.743295 #38406] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:28:32.743321 #38406] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:28:32.743347 #38406] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:28:32.743608 #38406] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:28:32.743647 #38406] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:28:32.743670 #38406] DEBUG -- : response-header: set-cookie => atmail6=gk7tq4bqmijjoflj8ge730ugh6; path=/; HttpOnly
+D, [2015-11-12T19:28:32.743692 #38406] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:28:32.743712 #38406] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:28:32.743805 #38406] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:28:32.743931 #38406] DEBUG -- : gzip response
+D, [2015-11-12T19:28:32.745516 #38406] DEBUG -- : saved cookie: atmail6=gk7tq4bqmijjoflj8ge730ugh6
+I, [2015-11-12T19:28:32.747087 #38406]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2015-11-12T19:28:32.747156 #38406] DEBUG -- : response-header: server => nginx/1.6.2
+D, [2015-11-12T19:28:32.747188 #38406] DEBUG -- : response-header: date => Thu, 12 Nov 2015 19:28:33 GMT
+D, [2015-11-12T19:28:32.747383 #38406] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2015-11-12T19:28:32.747455 #38406] DEBUG -- : response-header: content-length => 3906
+D, [2015-11-12T19:28:32.747522 #38406] DEBUG -- : response-header: connection => keep-alive
+D, [2015-11-12T19:28:32.747576 #38406] DEBUG -- : response-header: x-powered-by => PHP/5.3.3
+D, [2015-11-12T19:28:32.747613 #38406] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2015-11-12T19:28:32.747638 #38406] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2015-11-12T19:28:32.748327 #38406] DEBUG -- : response-header: pragma => no-cache
+D, [2015-11-12T19:28:32.748408 #38406] DEBUG -- : response-header: set-cookie => atmail6=d8pc5np5chb8j9k2s3j4j1akd4; path=/; HttpOnly
+D, [2015-11-12T19:28:32.748464 #38406] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2015-11-12T19:28:32.748506 #38406] DEBUG -- : response-header: content-encoding => gzip
+D, [2015-11-12T19:28:32.748654 #38406] DEBUG -- : Read 3906 bytes (3906 total)
+D, [2015-11-12T19:28:32.748799 #38406] DEBUG -- : gzip response
+D, [2015-11-12T19:28:32.750498 #38406] DEBUG -- : saved cookie: atmail6=d8pc5np5chb8j9k2s3j4j1akd4

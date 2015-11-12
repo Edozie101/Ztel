@@ -7,4 +7,5 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem "pg"
 gem "mechanize"
+gem "thin"
 ruby '2.1.3'

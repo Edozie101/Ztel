@@ -8,10 +8,29 @@ get '/users' do
 end
 
 post '/login' do
+  require 'mechanize'
+  require 'logger'
   puts "it starts here"
-  puts params
-  puts "THIS IS THE GODDAMM THING!"
-  puts "WELL WELL WELL"
+  user =  params[:user]
+  password =  params[:password ]
+    a = Mechanize.new
+    # Getting a logger for the mechanize classie
+    a.log = Logger.new("mech.log")
+    #set up the alias as a Mac safari
+    # a.user_agent_alias = "Mac Safari"
+
+    page = a.get("https://zegtel.atmailcloud.com")
+    a.add_auth(page.uri, user, password)
+
+    form = page.form_with :name => "loginPage"
+    form.field_with(:name => "email").value = user
+    form.field_with(:name => "password").value = password
+    npage = form.submit
+    puts "here is the PAGEEEEEEEE __>>>>"
+    npage.to_s
+    puts "here is the URLLLLLL __>>>>"
+    puts npage.uri
+  redirect "#{npage.uri}"
 end
 
 post '/mail' do
