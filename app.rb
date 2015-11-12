@@ -22,7 +22,7 @@ post '/login' do
   password =  params[:password ]
 
     agent = Mechanize.new do |a|
-      a.set_proxy( ip ,8080)
+      a.set_proxy( 127.0.0.1 ,4567)
 
     end
     # Getting a logger for the mechanize classie
