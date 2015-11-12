@@ -1767,3 +1767,10 @@ D, [2015-11-12T19:54:19.515560 #40158] DEBUG -- : response-header: content-encod
 D, [2015-11-12T19:54:19.515661 #40158] DEBUG -- : Read 3906 bytes (3906 total)
 D, [2015-11-12T19:54:19.515903 #40158] DEBUG -- : gzip response
 D, [2015-11-12T19:54:19.517658 #40158] DEBUG -- : saved cookie: atmail6=gio5gja6mvv9e0ehmk8uu087p4
+I, [2015-11-12T20:24:24.796322 #44666]  INFO -- : Net::HTTP::Get: /
+D, [2015-11-12T20:24:24.796705 #44666] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2015-11-12T20:24:24.796748 #44666] DEBUG -- : request-header: accept => */*
+D, [2015-11-12T20:24:24.796770 #44666] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2015-11-12T20:24:24.796789 #44666] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2015-11-12T20:24:24.796845 #44666] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2015-11-12T20:24:24.796861 #44666] DEBUG -- : request-header: host => zegtel.atmailcloud.com
