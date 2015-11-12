@@ -284,6 +284,8 @@ fieldset[disabled] .btn-xl.active {
 
 }
 
+
+
 @media only screen and (orientation: landscape ) and (device-width: 320px), (device-width: 768px) {
   header{
     height: 700px !important;
@@ -1030,6 +1032,41 @@ h3{
   background: #000;
   z-index: 9999;
 
+
+}
+.center {
+  text-align: center;
+}
+.center form {
+    display:inline-block;
+}
+
+
+#initial-page{
+  height: 100vh;
+
+}
+
+section#loginsection{
+  background: url("IsoRedTower.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 100vh;
+
+}
+
+section#loginsection .form-group input {
+  padding: 20px;
+  height: auto;
+  width: 300px;
+
+
+}
+
+h3.closer {
+  margin-top: 0 !important;
 
 }
 

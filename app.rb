@@ -3,6 +3,9 @@ require 'sinatra'
 get '/' do
   erb :index
 end
+get '/users' do
+  erb :users
+end
 
 post '/mail' do
   require 'pony'

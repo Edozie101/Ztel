@@ -28,10 +28,35 @@
 
   </head>
   <body id="initial-page" class="index">
+  <section id="loginsection">
 
-    
+    <div class="row">
+      <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Login</h2>
+          <h3 id="haich3" class="section-subheading text-muted closer">For Authorized Users only</h3>
+      </div>
+    </div>
 
+      <div class="row center" id="formrow">
+      <form class="contact" action="/login" class="form-control" method="post" id="username">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="username"  class="form-control" placeholder="Your username *" required data-validation-required-message="Please enter your username.">
+            </div>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="password" class="form-control" placeholder="Your Password *" required data-validation-required-message="Please enter your password.">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
 
+</section>
 
   </body>
 </html>
