@@ -7,6 +7,10 @@ get '/users' do
   erb :users
 end
 
+post '/login' do
+  puts params
+end
+
 post '/mail' do
   require 'pony'
 

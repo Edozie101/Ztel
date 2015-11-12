@@ -37,8 +37,8 @@
       </div>
     </div>
 
-      <div class="row center" id="formrow">
-      <form class="contact" action="/login" class="form-control" method="post" id="username">
+    <div class="row center" id="formrow">
+      <form class="contact" action="/login" method="post" class="form-control"  name="login"  enctype="text/plain">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -47,14 +47,19 @@
           </div>
         </div>
       <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
+        <div class="col-md-6">
+          <div class="form-group">
               <input type="text" name="password" class="form-control" placeholder="Your Password *" required data-validation-required-message="Please enter your password.">
-            </div>
           </div>
         </div>
-      </form>
-    </div>
+      </div>
+      <div class="col-md-6">
+        <div id="success1"></div>
+        <button type="submit" name="button" class="btn btn-xl">Login</button>
+      </div>
+    </form>
+
+  </div>
 
 </section>
 
