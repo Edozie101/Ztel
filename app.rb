@@ -8,7 +8,10 @@ get '/users' do
 end
 
 post '/login' do
+  puts "it starts here"
   puts params
+  puts "THIS IS THE GODDAMM THING!"
+  puts "WELL WELL WELL"
 end
 
 post '/mail' do
