@@ -22,7 +22,7 @@ post '/login' do
   password =  params[:password ]
 
     agent = Mechanize.new do |a|
-      a.set_proxy( "https://zegtel.atmailcloud.com/index.php" ,443)
+      # a.set_proxy( "zegtel.atmailcloud.com/index.php" ,443)
 
     end
     # Getting a logger for the mechanize classie
@@ -32,17 +32,17 @@ post '/login' do
 
 
     page = agent.get("https://zegtel.atmailcloud.com")
-    a.add_auth(page.uri, user, password)
+    # a.add_auth(page.uri, user, password)
 
     form = page.form_with :name => "loginPage"
     form.field_with(:name => "email").value = user
     form.field_with(:name => "password").value = password
-    npage = form.submit
+    # npage = form.submit
     puts "here is the PAGEEEEEEEE __>>>>"
-    npage.to_s
+    # npage.to_s
     puts "here is the URLLLLLL __>>>>"
-    puts npage.uri
-  redirect "#{npage.uri}"
+    # puts npage.uri
+  redirect "#{page.uri}"
 end
 
 post '/mail' do
