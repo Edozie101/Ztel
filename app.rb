@@ -10,13 +10,13 @@ puts iphash
 get '/' do
   erb :index
 end
-get '/users' do
-  erb :users
-end
-
-get '/email' do
-  redirect 'https://zegtel.atmailcloud.com/index.php'
-end
+# get '/users' do
+#   erb :users
+# end
+# 
+# get '/email' do
+#   redirect 'https://zegtel.atmailcloud.com/index.php'
+# end
 
 post '/login' do
   require 'mechanize'
