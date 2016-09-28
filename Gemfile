@@ -8,4 +8,4 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem "pg"
 gem "mechanize"
-ruby '2.2.2'
+ruby '2.1.3'
