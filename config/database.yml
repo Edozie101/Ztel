@@ -5,4 +5,6 @@ development:
   password: <%= ENV['PG_PASS'] %>
   host: localhost
 
-  
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
